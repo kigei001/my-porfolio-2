@@ -1,0 +1,85 @@
+.hero {
+    background-image: url(imageSakura.jpg);
+    background-size:cover;
+    height:100vh;
+    text-align:center;
+    padding-top: 6cm;
+    width:100%;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 1cm;
+}
+
+.information {
+    font-family: "Merriweather", serif;
+}
+
+.hero > .information {
+    font-size:30px;
+}
+
+.myInfo {
+    padding-top:5cm;
+    text-align: center;
+}
+
+.myFace {
+    height:5.5cm;
+    border-radius: 50%;
+    margin-bottom: 1cm;;
+}
+
+.myInfo > .information {
+    font-size:20px;
+    padding-top: 0.5cm;
+    padding-bottom: 5cm;;
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    color:#ef8dac;
+    text-align: center;
+}
+
+.grid-container{
+    padding-top:1cm;
+    display:grid;
+    gap: 1cm;
+    grid-template-columns:  1fr 2fr 2fr 1fr;
+  
+}
+
+.grid-item {
+    display:flex;
+    flex-direction:column;
+    align-items: left;
+    font-family: "Merriweather", serif;   
+}
+
+.coding {
+
+    margin-bottom:3cm;
+}
+
+li {
+    font-size:18px
+}
+
+
+.line {
+    width:100%;
+}
+
+
+
+
+
+
+
+
